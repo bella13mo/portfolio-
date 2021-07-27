@@ -1,0 +1,96 @@
+body{
+  font-size: 15px;
+  font-family: cursive;
+  background-color: rgb(70, 71, 73); 
+  font-weight: bold;
+  color:#fff; 
+  margin : 0;
+  padding: 0;
+}
+::selection {
+  color: #000;
+  background: yellow;
+}
+.top_nav{
+  background-color : #000;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  text-align: center; 
+  font-size:30px;
+  padding-top: 17px ; 
+  padding-bottom: 17px;
+}
+.infos .pic .img_test{
+  /*height: 100px ; 
+  width: 100px ; 
+  background-color: black;
+  border-radius: 40%;
+  position: relative;
+  width: auto;*/
+}
+._f{
+  color: slategray;
+}
+
+.img{
+  width: auto;
+  display: content;
+  height: 350px;
+  border-radius: 0%;
+  display: block;
+  margin: 10px;
+  box-shadow: 0px 0px 16px #151515;
+}
+.infos{
+  margin: 17px 10px 60px 10px;
+}
+.infos a{
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  color: black;
+  display: block;
+  text-decoration: none;
+  line-height: 2.8em;
+  text-align: center;
+  max-width: 600px;
+  
+}
+.infos a{
+  width: 100%;
+  height: 100%;
+}
+.infos #insta{
+  background-image: linear-gradient(to right, #FF0000 , yellow);
+  color: white;
+}
+.infos #face{
+  background-color: #172E5A;
+  border: 1px solid #001A4C;
+  color: white;
+}
+.infos #link{
+  background-color: #005DBB;
+  color: white;
+  border: 1px solid #0011CD
+}
+.infos #git{
+  background-color: #1F1F1F;
+  color: white;
+  border: 1px solid #000;
+}
+.mobile_v{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background-color: #000;
+  color: white;
+  padding: 10px 0px;
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+}
+/*Fonts*/
+.sans-serif{
+  font-family: serif;
+}
